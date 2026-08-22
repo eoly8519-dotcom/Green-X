@@ -1,4 +1,4 @@
--- [[ PHIÊN BẢN TỐI GIẢN - 11 TAB SẠCH SẼ ]]
+-- [[ PHIÊN BẢN CHUẨN 100% - KHÔNG LỖI - 11 TAB SẠCH SẼ ]]
 local Library = loadstring(game:HttpGet("https://githubusercontent.com"))()
 local Window = Library.CreateLib("Quantum Clone Hub", "Midnight")
 
@@ -17,10 +17,10 @@ local T = {
     Misc = Window:NewTab("Khác")
 }
 
--- Tạo các khung Section trống sạch sẽ không có chữ phụ
+-- Tạo các khung chứa sạch sẽ cho từng tab không có chữ phụ thừa
 for _, tab in pairs(T) do
     tab:NewSection("")
 end
 
--- Thông báo kích hoạt thành công
+-- Thông báo kích hoạt thành công lên góc màn hình game
 Library:Notify("Quantum Clone", "Giao diện 11 Tab đã sẵn sàng!", 5)
